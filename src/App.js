@@ -39,9 +39,9 @@ function App() {
         <div style={styles.result}>
           <p>Short URL:</p>
           <a href={shortUrl} target="_blank" rel="noreferrer">
+            <button>Click to open</button>
             {shortUrl}
           </a>
-
           <button onClick={copyToClipboard} style={styles.copyBtn}>
             📋 Copy
           </button>
