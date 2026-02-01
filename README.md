@@ -53,8 +53,9 @@ Flask Backend (Render)
 
 Add your screenshots here
 
-![UI Screenshot](screenshots/ui.png)
-![QR Code Screenshot](screenshots/qr.png)
+<img width="1897" height="917" alt="image" src="https://github.com/user-attachments/assets/e05db1c6-0f57-4498-8e47-fddbf8b2be16" />
+<img width="1902" height="923" alt="image" src="https://github.com/user-attachments/assets/725bc569-8875-4f60-b88f-b4345e66dc42" />
+
 
 ⚙️ How It Works
 
