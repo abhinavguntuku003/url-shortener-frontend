@@ -1,70 +1,122 @@
-# Getting Started with Create React App
+🔗 URL Shortener with QR Code Support
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack URL shortener web application that converts long URLs into short, shareable links with instant QR code generation.
+Built with modern web technologies and deployed on the cloud for global access.
 
-## Available Scripts
+🚀 Features
 
-In the project directory, you can run:
+🔗 Shorten long URLs into compact links
 
-### `npm start`
+📋 One-click copy to clipboard
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+📱 QR code generation for every short URL
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🌍 Publicly accessible (cloud deployed)
 
-### `npm test`
+⚡ Fast and lightweight REST API
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🛠 Tech Stack
+Frontend
 
-### `npm run build`
+React
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Axios
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+QRCode (Canvas-based generation)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Backend
 
-### `npm run eject`
+Flask (Python)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+SQLite
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Flask-CORS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Deployment & Tools
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Frontend Hosting: Vercel
 
-## Learn More
+Backend Hosting: Render
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Version Control: Git & GitHub
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🏗 Architecture Overview
+React Frontend (Vercel)
+        |
+        |  REST API (HTTP)
+        |
+Flask Backend (Render)
+        |
+     SQLite Database
 
-### Code Splitting
+📸 Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Add your screenshots here
 
-### Analyzing the Bundle Size
+![UI Screenshot](screenshots/ui.png)
+![QR Code Screenshot](screenshots/qr.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+⚙️ How It Works
 
-### Making a Progressive Web App
+User enters a long URL in the React UI
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Frontend sends request to Flask API
 
-### Advanced Configuration
+Backend generates a unique short code
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+URL mapping is stored in SQLite
 
-### Deployment
+Short URL and QR code are returned
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Accessing the short URL redirects to the original link
 
-### `npm run build` fails to minify
+🧪 Run Locally
+Backend
+pip install -r requirements.txt
+python app.py
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Frontend
+npm install
+npm start
+
+🌍 Live Demo
+
+Frontend: https://your-vercel-url.vercel.app
+
+Backend: https://your-render-url.onrender.com
+
+📈 Future Enhancements
+
+📊 Click analytics dashboard
+
+✏️ Custom short URLs
+
+⏳ Expiry for links
+
+🔐 User authentication
+
+🙌 Acknowledgements
+
+This project was built to strengthen real-world full-stack development skills, cloud deployment understanding, and production debugging experience.
+
+📬 Feedback
+
+Suggestions and improvements are always welcome!
+
+✅ WHAT THIS DOES FOR YOU
+
+✔ Makes your LinkedIn post scroll-stopping
+✔ Makes your GitHub look recruiter-ready
+✔ Shows real deployment + engineering maturity
+
+If you want next, I can:
+
+Optimize this README for ATS keywords
+
+Write resume bullet points from this project
+
+Help you pin this repo properly on GitHub
+
+Write a “final year project” version description
+
+Just tell me 👌
